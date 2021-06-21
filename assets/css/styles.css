@@ -1,0 +1,88 @@
+body,
+html {
+  overflow-x: hidden;
+  background-color: white; }
+
+.logo__mod {
+  width: 170px;
+  height: 130px;
+  border-radius: 10px; }
+
+.navbar-nav.ml-auto {
+  align-items: center;
+  text-align: center; }
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 2rem; }
+
+.li__mod {
+  font-size: 20px; }
+
+.header--bgvideo {
+  position: relative;
+  background-color: black;
+  height: 85vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden; }
+
+.header--bgvideo video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%); }
+
+.header--bgvideo .container {
+  position: relative;
+  z-index: 2; }
+
+.header--bgvideo .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1; }
+
+.h1__slogan {
+  margin: 2rem; }
+
+.footer__mt {
+  margin-top: 5rem; }
+
+.footer--redes_margin {
+  margin-top: 35px; }
+
+.footer--icons_margin {
+  margin-left: 0.5rem;
+  margin-top: 1rem; }
+
+@media (max-width: 991px) {
+  .h1__explora {
+    margin-bottom: 4rem; }
+  .logos__empresas {
+    width: 65%;
+    height: 65%;
+    margin: auto; }
+  .img__width {
+    max-width: 450px; }
+  .img__form {
+    margin-top: 5rem;
+    max-width: 70%; } }
+
+@media (max-width: 470px) {
+  .img__width {
+    max-width: 320px; } }
+
+.card-img-top {
+  height: 430px; }
