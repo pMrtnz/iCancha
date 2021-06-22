@@ -57,6 +57,12 @@ html {
 .h1__slogan {
   margin: 2rem; }
 
+.icons__anim {
+  transition: 300ms; }
+
+.icons__anim:hover {
+  transform: translateY(-15px); }
+
 .footer__mt {
   margin-top: 5rem; }
 
