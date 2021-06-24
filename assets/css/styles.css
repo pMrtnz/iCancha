@@ -81,6 +81,7 @@ html {
     height: 65%;
     margin: auto; }
   .img__width {
+    margin-top: 25px;
     max-width: 450px; }
   .img__form {
     margin-top: 5rem;
@@ -90,5 +91,3 @@ html {
   .img__width {
     max-width: 320px; } }
 
-.card-img-top {
-  height: 430px; }
