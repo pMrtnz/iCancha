@@ -13,7 +13,7 @@ html {
   text-align: center; }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding-right: 2rem; }
+  padding: 0px 25px 0px 25px; }
 
 .li__mod {
   font-size: 20px; }
@@ -74,6 +74,8 @@ html {
   margin-top: 1rem; }
 
 @media (max-width: 991px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 12px 0 12px 0; }
   .h1__explora {
     margin-bottom: 4rem; }
   .logos__empresas {
@@ -91,3 +93,5 @@ html {
   .img__width {
     max-width: 320px; } }
 
+.card-img-top {
+  height: 430px; }
